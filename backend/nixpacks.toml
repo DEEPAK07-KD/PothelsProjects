@@ -1,0 +1,5 @@
+[phases.setup]
+cmds = ["chmod +x mvnw"]
+
+[phases.build]
+cmds = ["./mvnw -DskipTests clean package"]
